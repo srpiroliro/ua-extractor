@@ -1,0 +1,2 @@
+# User-Agent Extractor
+By providing a path where these logs are, the program will parse all the files which end in `.log` and don't contain `.error` looking for user-agents which later will be outputed into a json file called `results.json`.
