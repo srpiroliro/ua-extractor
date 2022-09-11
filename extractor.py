@@ -3,7 +3,7 @@ from tqdm import tqdm
 
 user_agents={}
 
-logs_path="/home/morlok/Documents/domlogs/"
+logs_path=""
 while not logs_path:
     logs_path=input("PATH TO LOGS: ")
     if not os.path.exits(logs_path):
